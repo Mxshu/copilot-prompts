@@ -1,6 +1,6 @@
 # 🚀 Projeto: Agentes de Inteligência Artificial
 
-Este repositório documenta o desafio realizado no curso **CAIXA - Inteligência Artificial na Prática**, oferecido pela **DIO (Digital Innovation One)**.  
+Este repositório documenta o desafio realizado no curso **CAIXA - Inteligência Artificial na Prática**, oferecido pela **DIO**.  
 Os **prompts dos agentes foram fornecidos pelo professor** como parte do desafio.
 
 ---
