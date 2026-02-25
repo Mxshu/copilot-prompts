@@ -1,110 +1,67 @@
-<!--START_SECTION:header-->
-<div align="center">
-  <p align="center">
-    <img 
-      alt="DIO Education" 
-      src="https://raw.githubusercontent.com/digitalinnovationone/template-github-trilha/main/.github/assets/logo.webp" 
-      width="100px" 
-    />
-    <h1>Título do Curso ou Projeto</h1>
-  </p>
-</div>
-<!--END_SECTION:header-->
+# 🚀 Projeto: Agentes de Inteligência Artificial
 
-<p align="center">
-  <img src="https://img.shields.io/static/v1?label=DIO&message=Education&color=E94D5F&labelColor=202024" alt="DIO Project" />
-  <a href="NIVEL"><img  src="https://img.shields.io/static/v1?label=Nivel&message=Basico&color=E94D5F&labelColor=202024" alt="Nivel"></a>
+Este repositório documenta o desafio realizado no curso **CAIXA - Inteligência Artificial na Prática**, oferecido pela **DIO (Digital Innovation One)**.  
+Os **prompts dos agentes foram fornecidos pelo professor** como parte do desafio.
 
-</p>
+---
 
-<!--  -->
-<table align="center">
-<thead>
-  <tr>
-    <td>
-        <p align="center">Expert</p>
-        <a href="https://github.com/felipeAguiarCode">
-        <img src="https://avatars0.githubusercontent.com/u/37452836?v=3&s=115" alt="@felipeAguiarCode"><br>
-      </a>
-    </td>
-    <td colspan="3">
-    <p>🎉 10y+ em sistemas comerciais com .NET C# e NODE.JS.
-      <br/>
-     🌟 Desenvolvedor fullstack - Coordenador de educação na DIO
-      <br/>
-    👨‍💻 Foco em front-ends SPA com React, Angular e Vue.js
-    </p>
-      <a 
-      href="https://www.linkedin.com/in/felipe-me/" 
-      align="center">
-           <img 
-            align="center" 
-            alt="Material de Apoio" 
-            src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white"
-            >
-        </a>
-        <a href="https://www.instagram.com/felipeaguiar.exe/" target="_blank">
-            <img 
-              align="center" 
-              alt="Instagram" 
-              src="https://img.shields.io/badge/Instagram-E4405F?style=for-the-badge&logo=instagram&logoColor=white"
-            >
-        </a>
-    </td>
-  </tr>
-</thead>
-</table>
-<!--  -->
+## 🧠 Agente 1 – Entrevistador
+- Conduz **7 perguntas estruturadas** para entender perfil profissional.  
+- Sugere **3 carreiras ranqueadas** com vantagens, desafios e contexto de mercado.  
+- Transfere dados coletados para o **Agente 2**.  
 
-<br/>
-<br/>
+**📂 Exemplo de saída do Agente 1:**  
+- Carreira escolhida: **Analista de Dados**  
+- Horas/semana: **20h**  
+- Experiência: **alguma (faculdade + estágio)**  
+- Objetivo: **estágio ou primeiro emprego efetivo**  
+- Preferência: **dados e código**  
+- Interesses: **SQL Server, análise de dados, front-end, IA**
 
-## 💻 Sobre o Projeto
+---
 
-Vamos construir uma página spa, responsiva, para usar em diversos tipos de micro, pequena e média empresas. Contém as seguintes seções: Header, Navigation, Home, Sobre, Serviços, Depoimentos, Contato e Footer que faz xxx e yyy
+## 🤖 Agente 2 – Planejador de Roadmap
+- Recebe informações do Agente 1.  
+- Gera **plano completo de estudos** com:  
+  - 🧩 Visão do dia a dia  
+  - 🧠 Mapa de skills  
+  - 📅 Roadmap de 90 dias  
+  - 🚀 Projeto de portfólio  
+  - 💬 Roteiro de entrevistas  
+  - 🎓 Trilha DIO recomendada  
 
-## 📚 Pré-requisitos de Habilidades e Níveis de Conhecimento
+**📦 Exemplo de saída do Agente 2 (Analista de Dados):**  
+- **Visão do dia a dia:** extrair, limpar, analisar e comunicar dados.  
+- **Core Skills:** Python (pandas, numpy), Estatística, Power BI.  
+- **Roadmap 90 dias:**  
+  - Mês 1: Fundamentos de Python e Estatística  
+  - Mês 2: Prática intensiva (visualização + Power BI)  
+  - Mês 3: Projeto de portfólio + entrevistas  
+- **Projeto de Portfólio:** Análise de Vendas com previsão de tendências.  
+- **Trilha DIO:** *Formação Analista de Dados*.
 
-Antes de ingressar neste conteúdo, é necessário possuir conhecimento prévio nas seguintes áreas:
+---
 
-- [habilidades ou conhecimentos prévios necessários] | [Básico, Intermediário, Avançado ou Especialista]
+## 📊 Comparação dos Agentes
 
-- _Exemplo_:
+| Aspecto              | Agente 1 🧠 | Agente 2 🤖 |
+|----------------------|-------------|-------------|
+| Papel principal      | Entrevistador | Mentor/Instrutor |
+| Foco                 | Descobrir perfil | Criar plano de estudos |
+| Estrutura            | 7 perguntas + análise | Roadmap completo |
+| Resultado entregue   | 3 carreiras ranqueadas | Plano de aprendizado |
+| Interação            | Perguntas e sugestões | Orientação prática |
 
-  - Java | Básico
-  - Gerenciamento de pacotes | Básico
-  -
+---
 
-- [Outros pré-requisitos, se aplicável]
+## 🎯 Conclusão
+Este projeto demonstrou como **prompts bem definidos direcionam o comportamento da IA**:  
+- O **Agente 1** coleta informações de forma estruturada.  
+- O **Agente 2** transforma dados em um **plano de ação concreto**.  
 
-- _Exemplo_:
-  - Lógica de programação
-  - Javascript
+---
 
-## 🛠️ Habilidades e Sub-habilidades que vamos aprender neste conteúdo
-
-- [Lista das habilidades principais a serem desenvolvidas]
-
-  - [Subhabilidades relacionadas, se aplicável]
-
-- _Exemplo_:
-  - Java
-    - Api Rest
-
-## 🎯 Objetivos e Resultados Esperados
-
-Após a conclusão do curso/projeto, os estudantes estarão aptos a:
-
-- [Descrição do que os estudantes serão capazes de fazer]
-- [Projetos ou soluções que os estudantes estarão aptos a construir]
-
-<!--START_SECTION:footer-->
-
-<br />
-<br />
-
-<p align="center">
-  <a href="https://www.dio.me/" target="_blank">
-    <img align="center" src="https://raw.githubusercontent.com/digitalinnovationone/template-github-trilha/main/.github/assets/footer.png" alt="banner"/>
-  </a>
-</p>
+## 📚 Créditos
+- Curso: **CAIXA - Inteligência Artificial na Prática**  
+- Plataforma: **DIO (Digital Innovation One)**  
+- Prompts: fornecidos pelo professor do desafio
