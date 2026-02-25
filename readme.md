@@ -63,5 +63,5 @@ Este projeto demonstrou como **prompts bem definidos direcionam o comportamento 
 
 ## 📚 Créditos
 - Curso: **CAIXA - Inteligência Artificial na Prática**  
-- Plataforma: **DIO (Digital Innovation One)**  
+- Plataforma: **DIO**  
 - Prompts: fornecidos pelo professor do desafio
